@@ -9,3 +9,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+Hello! 
+I've simplified the logic and removed unecessary branches in my opinion to make the code more readable, concise and easy to understand. Also, I make the candidate variable start with a "default" value. The type check and the length check is at the bottom to reduce nesting.
+I've added the unit tests that I think it will ensure that the refactored code will not break. The tests will make the code more maintainable for now and the future. :)
